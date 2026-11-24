@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120">
+  <circle cx="60" cy="60" r="56" fill="#1C1B1F" stroke="#B87333" stroke-width="4"/>
+  <circle cx="60" cy="60" r="46" fill="none" stroke="#F4EBDD" stroke-width="1.5"/>
+  <text x="60" y="73" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="38" font-weight="700" fill="#F4EBDD">N&amp;P</text>
+  <path d="M34 91 L86 91" stroke="#9E2A2B" stroke-width="3" stroke-linecap="round"/>
+</svg>

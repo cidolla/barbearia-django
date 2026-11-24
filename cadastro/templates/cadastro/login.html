@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Login | Navalha &amp; Prosa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/estilo.css' %}">
+</head>
+<body class="login-pagina">
+    <main class="login-card">
+        <div class="faixa"></div>
+        <form class="login-corpo" action="{% url 'barbearia' %}" method="get">
+            <img src="{% static 'img/logo.svg' %}" alt="Logo Navalha &amp; Prosa">
+            <h1>Navalha &amp; Prosa</h1>
+            <p class="login-sub">Acesse sua conta</p>
+
+            <label for="matricula">Matrícula</label>
+            <input id="matricula" name="matricula" type="text" placeholder="Insira sua matrícula" required>
+
+            <label for="senha">Senha</label>
+            <input id="senha" name="senha" type="password" placeholder="Insira sua senha" required>
+
+            <button type="submit">Login</button>
+            <a class="login-ajuda" href="#">Informações de Ajuda</a>
+        </form>
+    </main>
+    <p class="rodape-login">Desenvolvido por cid espíndola - 2026</p>
+</body>
+</html>
